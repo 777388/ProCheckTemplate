@@ -10,4 +10,4 @@ Check the saved log after its run to see if any of the times it ran went through
 Note: this does not check surrogate chars, future installations could include class gateways but I'll let you set that if you'd like
 
 
-Using gdb you can set a break point to every time the lambda issue comes along just so you can see if each triage(charamount) set together causes some sort of interaction. Paraphysic acoustics have been an interest of mine lately.
+Using gdb you can set a break point to every time the lambda issuance comes along just so you can see if each triage(charamount) set together causes some sort of interaction. Paraphysic acoustics have been an interest of mine lately.
