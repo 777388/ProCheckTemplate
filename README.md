@@ -19,16 +19,16 @@ If you'd like to lower the amount of time, I'd recommend looking back at some of
 
 I'm gonna be completely honest, this is a template so I didn't test it working off the bat, but if you get exitcodes, just remember to do a seperation of where the exitcode is caused using 
 
-Try:
-
-  Followed by code
-
-except Exception as e:
-  
-  print(e)
-  
-  continue
-
+//Try:
+//
+//  Followed by code
+//
+//except Exception as e:
+// 
+//  print(e)
+//  
+//  continue
+//
 
 
 Using gdb you can set a break point to every time the lambda issuance comes along just so you can see if each triage(charamount) set together causes some sort of interaction. Paraphysic acoustics have been an interest of mine lately.
