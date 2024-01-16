@@ -10,49 +10,40 @@ errors = []
 output = []
 def test(x):
     try:
-        output.append(os.popen(checks+" "+x).read()+"\r")
-        return os.popen(checks+" "+x)
+        return os.popen(checks+" "+x).read()
     except Exception as e:
         errors.append(x+" has an error:"+str(e)+"\r")
         pass
-with open(str(check)+"_"+str(checks)+"_procheckt.txt", "a") as c:
-    with open(firstcharmap, "r") as charmap:
-        for line in charmap:
-            for char in line:
-                if (tick < check):
-                    model.append(char)
-                    tick += 1
-                else:
-                    model.append(char)
-                    x = lambda x: test(x)
-                    (list(map(x, model)))
-                    model = []
-                    tick = 0
-    tick = 0
-    with open(secondcharmap, "r") as charmap2:
-        for lines in charmap2:
-            for chars in line:
-                if (tick < check):
-                    model.append(chars)
-                    tick += 1
-                else:
-                    model.append(char)
-                    x = lambda x: test(x)
-                    (list(map(x, model)))
-                    model = []
-                    tick = 0
 
-    print(errors)
-    print("Would you like to save the output to a report log named "+str(check)+"_"+str(checks)+"_procheckt.txt? y or n")
-    tellme = input()
-    print("Would you like the Error Report saved to a report log named "+str(check)+"_"+str(checks)+"_procheckt.txt? y or n")
-    telll = input()
-    if(telll == "y"):
-        c.write(errors)
-    if(tellme == "y"):
-        c.write(output)
+with open(firstcharmap, "r") as charmap:
+    for line in charmap:
+        for char in line:
+            if (tick < check):
+                model.append(char)
+                tick += 1
+            else:
+                model.append(char)
+                x = lambda x: test(x)
+                (list(map(x, model)))
+                model = []
+                tick = 0
+tick = 0
+with open(secondcharmap, "r") as charmap2:
+    for lines in charmap2:
+        for chars in line:
+            if (tick < check):
+                model.append(chars)
+                tick += 1
+            else:
+                model.append(char)
+                x = lambda x: test(x)
+                (list(map(x, model)))
+                model = []
+                tick = 0
+
+print(errors)
 
 print("End")
-c.close()
+
 charmap.close()
 charmap2.close()
