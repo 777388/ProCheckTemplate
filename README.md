@@ -17,6 +17,17 @@ Using this can take a while, so be sure to get a coffee and watch a movie while 
 If you'd like to lower the amount of time, I'd recommend looking back at some of my multithreaded multiprocessing programs for asynchronous ways to exponentially increase speed of the program and lower run time. Though this ones way bugged out from people trying to stop its usage (It got into all of Amazon's Memcache) it's a good reference on getting that going https://github.com/777388/AWSMEMCACHE/blob/main/amazonmemcache.py  While this one showcases how to use a memory placement as a memory conflict zone to cause an electron collision https://github.com/777388/Blanket/blob/main/blanket good for understanding threading.
 
 
+I'm gonna be completely honest, this is a template so I didn't test it working off the bat, but if you get exitcodes, just remember to do a seperation of where the exitcode is caused using 
+
+Try:
+
+  Followed by code
+
+except Exception as e:
+  
+  print(e)
+  
+  continue
 
 
 
