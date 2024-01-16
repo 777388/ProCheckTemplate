@@ -1,4 +1,4 @@
-usage: python3 procheckt.py "programname*" charamount
+usage: python3 ProCheckt.py "programname*" charamount
 
 * If its another python program you can write "python3 programname"
 
