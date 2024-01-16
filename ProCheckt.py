@@ -45,5 +45,14 @@ with open(str(check)+"_"+str(checks)+"_procheckt.txt", "a") as c:
     print(errors)
     print("Would you like to save the output to a report log named "+str(check)+"_"+str(checks)+"_procheckt.txt? y or n")
     tellme = input()
+    print("Would you like the Error Report saved to a report log named "+str(check)+"_"+str(checks)+"_procheckt.txt? y or n")
+    telll = input()
+    if(telll == "y"):
+        c.write(errors)
     if(tellme == "y"):
         c.write(output)
+
+print("End")
+c.close()
+charmap.close()
+charmap2.close()
