@@ -1,12 +1,12 @@
 import sys
 
-Check = sys.argv[1]
+checks = sys.argv[1]
 firstcharmap = "test1.txt"
 secondcharmap = "test.txt"
 check = sys.argv[2]
 tick = 0
 model = []
-with open(str(check)+str(Check)+"charcheck.txt", "a") as c:
+with open(str(check)+str(checks)+"charcheck.txt", "a") as c:
     with open(firstcharmap, "r") as charmap:
         for line in charmap:
             for char in line:
@@ -15,7 +15,7 @@ with open(str(check)+str(Check)+"charcheck.txt", "a") as c:
                     tick += 1
                 else:
                     model.append(char)
-                    x = lambda x: c.write(os.popen(check+" "+x).read())
+                    x = lambda x: c.write(os.popen(checks+" "+x).read())
                     (list(map(x, model)))
                     model = []
                     tick = 0
@@ -28,6 +28,6 @@ with open(str(check)+str(Check)+"charcheck.txt", "a") as c:
                     tick += 1
                 else:
                     model.append(char)
-                    x = lambda x: c.write(os.popen(check+" "+x).read())
+                    x = lambda x: c.write(os.popen(checks+" "+x).read())
                     model = []
                     tick = 0
