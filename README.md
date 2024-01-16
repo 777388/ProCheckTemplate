@@ -1,4 +1,4 @@
-Was testing around with os and subprocess, for some reason its not allowing the reading of a process out to a file, and likewise you can't just > to a file. strange.
+Was testing around with os and subprocess, for some reason its not allowing the reading of a process out to a file, and likewise you can't just > to a file. strange. I'm assuming its due to the lambda assignment
 
 
 usage: python3 ProCheckt.py "programname" charamount
