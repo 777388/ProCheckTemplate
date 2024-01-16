@@ -1,8 +1,8 @@
 import sys
 
 Check = sys.argv[1]
-firstcharmap = "~/sure\ buddy/test1.txt"
-secondcharmap = "~/sure\ buddy/test.txt"
+firstcharmap = "test1.txt"
+secondcharmap = "test.txt"
 check = sys.argv[2]
 tick = 0
 model = []
