@@ -1,6 +1,6 @@
-usage: python3 ProCheckt.py "programname*" charamount
+usage: python3 ProCheckt.py "programname" charamount
 
-* If its another python program you can write "python3 programname"
+* If its another python program you can write "python3 programname" for programname just make sure its in quotations, and if its not working get your file path right.
 
 set the char amount to whatever you like bigger than 1, too big causes some issues with matrix size operations if you don't set the list length yourself. Each character is handled Anonymously through Lambda
 
