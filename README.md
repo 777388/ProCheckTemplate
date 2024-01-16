@@ -1,3 +1,5 @@
+Was testing around with os and subprocess, for some reason its not allowing the reading of a file to send out to another file from the process, so you'll have to usage* > filename.   to be able to save the output when you use it. Had the errors spit out last as that's a indicator.
+
 usage: python3 ProCheckt.py "programname" charamount
 
 * If its another python program you can write "python3 programname" for programname just make sure its in quotations, and if its not working get your file path right.
