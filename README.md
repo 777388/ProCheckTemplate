@@ -5,4 +5,4 @@ set the char amount to whatever you like bigger than 1, too big causes some issu
 Check the saved log after its run to see if any of the times it ran went through any glitches. to set up a character gateway of what shouldn't be used in your programs.
 
 
-Note: this does not check surrogate words, future installations could include class gateways but I'll let you set that if you'd like
+Note: this does not check surrogate chars, future installations could include class gateways but I'll let you set that if you'd like
