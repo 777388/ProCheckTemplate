@@ -25,7 +25,7 @@ I'm gonna be completely honest, this is a template so I didn't test it working o
 //
 //except Exception as e:
 // 
-//  print(e)
+//  print(e) (with the option of making sure it spits out the sent letter that caused the exception for testing, I'd have it be spit out in multiple formats, binary, unicode, alternate encodings)
 //  
 //  continue
 //
