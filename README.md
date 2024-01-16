@@ -16,21 +16,6 @@ Using this can take a while, so be sure to get a coffee and watch a movie while 
 
 If you'd like to lower the amount of time, I'd recommend looking back at some of my multithreaded multiprocessing programs for asynchronous ways to exponentially increase speed of the program and lower run time. Though this ones way bugged out from people trying to stop its usage (It got into all of Amazon's Memcache) it's a good reference on getting that going https://github.com/777388/AWSMEMCACHE/blob/main/amazonmemcache.py  While this one showcases how to use a memory placement as a memory conflict zone to cause an electron collision https://github.com/777388/Blanket/blob/main/blanket good for understanding threading.
 
-
-I'm gonna be completely honest, this is a template so I didn't test it working off the bat, but if you get exitcodes, just remember to do a seperation of where the exitcode is caused using 
-
-//Try:
-//
-//  Followed by code
-//
-//except Exception as e:
-// 
-//  print(e) (with the option of making sure it spits out the sent letter that caused the exception for testing, I'd have it be spit out in multiple formats, binary, unicode, alternate encodings)
-//  
-//  continue
-//
-
-
 Using gdb you can set a break point to every time the lambda issuance comes along just so you can see if each triage(charamount) set together causes some sort of interaction. Paraphysic acoustics have been an interest of mine lately.
 
 Possible usages: this could be set to check a matrices "[e, x, a, m, p, l, e]" containing a whole word against a dicionary through a Forest of Language trees containing every possible permutation up to an amount of chars given, to see if any combinations spark a response. Said forests of character trees can be created with one of my mass data programs. "We're not out of the Woods Yet". If things get nonsensical check against the forests of unusable language trees.
