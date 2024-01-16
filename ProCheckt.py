@@ -29,5 +29,6 @@ with open(str(check)+str(checks)+"charcheck.txt", "a") as c:
                 else:
                     model.append(char)
                     x = lambda x: c.write(os.popen(checks+" "+x).read())
+                    (list(map(x, model)))
                     model = []
                     tick = 0
