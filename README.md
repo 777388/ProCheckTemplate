@@ -1,4 +1,5 @@
-Was testing around with os and subprocess, for some reason its not allowing the reading of a process out to a file, so you'll have to usage* > filename.   to be able to save the output when you use it. Had the errors spit out last as that's a indicator.
+Was testing around with os and subprocess, for some reason its not allowing the reading of a process out to a file, and likewise you can't just > to a file. strange.
+
 
 usage: python3 ProCheckt.py "programname" charamount
 
