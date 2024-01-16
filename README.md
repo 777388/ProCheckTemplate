@@ -14,7 +14,7 @@ Note: this does not check surrogate chars, future installations could include cl
 
 Using this can take a while, so be sure to get a coffee and watch a movie while you're waiting. Maybe buy a Blue Reptile skin backpack from my shop https://www.redbubble.com/i/backpack/Blue-reptile-Skin-by-ArtsAndCrypts/155105785.K1KHE
 
-If you'd like to lower the amount of time, I'd recommend looking back at some of my multithreaded multiprocessing programs for asynchronous ways to exponentially increase speed of the program and lower run time. Though this ones way bugged out from people trying to stop its usage (It got into all of Amazon's Memcache) it's a good reference on getting that going https://github.com/777388/AWSMEMCACHE/blob/main/amazonmemcache.py
+If you'd like to lower the amount of time, I'd recommend looking back at some of my multithreaded multiprocessing programs for asynchronous ways to exponentially increase speed of the program and lower run time. Though this ones way bugged out from people trying to stop its usage (It got into all of Amazon's Memcache) it's a good reference on getting that going https://github.com/777388/AWSMEMCACHE/blob/main/amazonmemcache.py  While this one showcases how to use a memory placement as a memory conflict zone to cause an electron collision https://github.com/777388/Blanket/blob/main/blanket good for understanding threading.
 
 
 
