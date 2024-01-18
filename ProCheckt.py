@@ -64,6 +64,6 @@ else:
 print(errors)
 
 print("End")
-
+lead.close()
 charmap.close()
 charmap2.close()
