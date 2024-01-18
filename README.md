@@ -30,3 +30,5 @@ Possible usages: this could be set to check a matrices "[e, x, a, m, p, l, e]" c
 this could also save each response into a database of responses minus the character provided in mentioning the program, and then save which characters showcase the same responses, biggest job in that one will be targeting the character used in the response if reused throughout. May suggest a gateway of % difference in os.popen().read response
 
 Ghidra could be used for targetting info pipeways with this program to see if any injections cause a programmatic malfunction or different response.
+
+This could also be used for Zone Analysis if you can get the Root Server guys on board with checking alongside, this could be done by simply using Dig +trace in the command section.
