@@ -49,16 +49,15 @@ with open(secondcharmap, "r") as charmap2:
 if (sys.argv[4] != None):
     with open(sys.argv[4], "r") as lead:
         for crossed in lead:
-            for lined in crossed:
-                if (tick < check):
-                    model.append(lined)
-                    tick += 1
-                else:
-                    model.append(lined)
-                    x = lambda x: test(x)
-                    (list(map(x, model)))
-                    model = []
-                    tick = 0
+            if (tick < check):
+                model.append(lined)
+                tick += 1
+            else:
+                model.append(lined)
+                x = lambda x: test(x)
+                (list(map(x, model)))
+                model = []
+                tick = 0
 else:
     pass
 
