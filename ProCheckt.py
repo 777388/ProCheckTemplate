@@ -1,5 +1,6 @@
 import sys
 import os
+
 checks = sys.argv[1]
 firstcharmap = "test1.txt"
 secondcharmap = "test.txt"
@@ -10,9 +11,14 @@ errors = []
 output = []
 def test(x):
     try:
-        return os.popen(checks+" "+x).read()
+        if (sys.argv[3] != None):
+            print(checks+x+str(sys.argv[3]))
+            return os.popen(checks+x+str(sys.argv[3])).read()
+        else:
+            print(checks+x.strip())
+            return os.popen(checks+x).read()
     except Exception as e:
-        errors.append(x+" has an error:"+str(e)+"\r")
+        errors.append(str(x)+" has an error:"+str(e)+"\r")
         pass
 
 with open(firstcharmap, "r") as charmap:
@@ -30,16 +36,31 @@ with open(firstcharmap, "r") as charmap:
 tick = 0
 with open(secondcharmap, "r") as charmap2:
     for lines in charmap2:
-        for chars in line:
+        for chars in lines:
             if (tick < check):
                 model.append(chars)
                 tick += 1
             else:
-                model.append(char)
+                model.append(chars)
                 x = lambda x: test(x)
                 (list(map(x, model)))
                 model = []
                 tick = 0
+if (sys.argv[4] != None):
+    with open(sys.argv[4], "r") as lead:
+        for crossed in lead:
+            for lined in crossed:
+                if (tick < check):
+                    model.append(lined)
+                    tick += 1
+                else:
+                    model.append(lined)
+                    x = lambda x: test(x)
+                    (list(map(x, model)))
+                    model = []
+                    tick = 0
+else:
+    pass
 
 print(errors)
 
