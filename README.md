@@ -1,7 +1,11 @@
 Was testing around with os and subprocess, for some reason its not allowing the reading of a process out to a file, and likewise you can't just > to a file. strange. I'm assuming its due to the lambda assignment
 
 
-usage: python3 ProCheckt.py "programname" charamount
+usage: python3 ProCheckt.py "programname" charamount "Optional:aftercheckappend" optional:extrachecksfile
+
+*example python3 ProCheckt.py "dig +trace  https://www.test.com/" 3 "#check" leads
+
+*this will spit out a check for every char in the test file in such format   dig +trace https://www.test.com/char#check, with the leads containing the top 100 visited websites in such a way that dig +trace https://www.test.com/popularwebsite.com#check
 
 * If its another python program you can write "python3 programname" for programname just make sure its in quotations, and if its not working get your file path right.
 
