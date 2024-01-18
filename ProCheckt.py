@@ -50,10 +50,10 @@ if (sys.argv[4] != None):
     with open(sys.argv[4], "r") as lead:
         for crossed in lead:
             if (tick < check):
-                model.append(lined)
+                model.append(crossed)
                 tick += 1
             else:
-                model.append(lined)
+                model.append(crossed)
                 x = lambda x: test(x)
                 (list(map(x, model)))
                 model = []
