@@ -3,9 +3,9 @@ Was testing around with os and subprocess, for some reason its not allowing the 
 
 usage: python3 ProCheckt.py "programname" charamount "Optional:aftercheckappend" optional:extrachecksfile
 
-*example python3 ProCheckt.py "dig +trace  https://www.test.com/" 3 "#check" leads
+* example python3 ProCheckt.py "dig +trace  https://www.test.com/" 3 "#check" leads
 
-*this will spit out a check for every char in the test file in such format   dig +trace https://www.test.com/char#check, with the leads containing the top 100 visited websites in such a way that dig +trace https://www.test.com/popularwebsite.com#check
+* this will spit out a check for every char in the test file in such format   dig +trace https://www.test.com/char#check, with the leads containing the top 100 visited websites in such a way that dig +trace https://www.test.com/popularwebsite.com#check
 
 * If its another python program you can write "python3 programname" for programname just make sure its in quotations, and if its not working get your file path right.
 
