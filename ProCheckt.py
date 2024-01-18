@@ -46,7 +46,6 @@ with open(secondcharmap, "r") as charmap2:
                 (list(map(x, model)))
                 model = []
                 tick = 0
-tick = 0
 if (sys.argv[4] != None):
     with open(sys.argv[4], "r") as lead:
         for crossed in lead:
@@ -64,7 +63,7 @@ else:
 x = lambda x: test(x)
 (list(map(x, model)))
 print(errors)
-
+print("All Rights Reserved ­® GreenBack Party 2024 Christopher Lycan")
 print("End")
 lead.close()
 charmap.close()
